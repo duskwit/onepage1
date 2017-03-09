@@ -1,0 +1,189 @@
+/* Tablet desktop MD*/
+@media (max-width: 1170px) {
+	/*general*/
+	#main button {
+		font-size: 1em;
+		padding: 5px 30px;
+	}
+
+	/*about*/
+	#about .container-centering-half div {
+		padding: 0 40px;
+	}
+
+	/*contact*/
+	#contact .contact-form {
+		padding: 0 50px;
+	}
+
+	/*footer*/
+	footer .footer-address {
+		padding: 80px 20px 0 0 ;
+	}
+}
+
+/* Tablet desktop 992 SMALL*/
+@media (max-width: 992px) {
+	/*general*/
+	.section-title {
+		font-size: 2.4em;
+	}
+	.section-text {
+		font-size: 1em;
+	}
+
+	/*nav*/
+	#main > nav > div > div.navbar-header > button {
+		display: none;
+	}
+
+	/*our work*/
+	.step {
+		height: 110px;
+	}
+	.step-content p {
+		font-size: 0.7em;
+	}
+	.step-border {
+		height: 110px;
+		width: 110px;
+	}
+	.step-content .fa {
+		font-size: 2.5em;
+	}
+
+	/*team*/
+	#team .thumbnail {
+		padding: 10px;
+	}
+	#team .thumbnail p {
+		font-size: 0.9em;
+	}
+
+	/*contact*/
+	#contact > div > div > div > div:nth-child(2) {
+		padding: 0;
+	}
+
+	/*footer*/
+	footer .footer-address {
+		padding: 60px 0;
+	}
+}
+
+/* MOBILE max 767px XS*/
+@media (max-width: 768px) {
+	/*navigation*/
+	#main > nav > div > div.navbar-header > button > i {
+		font-size: 1.4em;
+	}
+	#main > nav > div > div.navbar-header > button {
+		display: block;
+		padding: 4px 5px 3px 7px;
+		border-radius: 6px;
+	}
+
+	/*welcome page*/
+	.landing-text {
+		margin-left: 0px;
+	}
+
+	/*our work*/
+	#gallery > div > div.container > div.working-process {
+		padding: 10px;
+	}
+	.step {
+		height: 90px;
+	}
+	.step-content p {
+		font-size: 0.6em;
+	}
+	.step-border {
+		height: 90px;
+		width: 90px;
+	}
+	.step-content .fa {
+		font-size: 2em;
+	}
+	#myModal > div {
+		width: 100%;
+		margin: 80px auto;
+	}
+	#myModal > div img {
+		width: 100%;
+	}
+	#myModal > div > div > div {
+		padding: 0;
+	}
+
+	/*footer*/
+	footer {
+		height: auto;
+	}
+	footer #footer-logo {
+		margin: 20px 0;
+	}
+	footer .fa {
+		font-size: 2em;
+		padding-bottom: 10px;
+	}
+	footer .footer-address {
+		padding: 0;
+		text-align: center;
+		font-size: 0.8em;
+		padding-top: 20px;
+	}
+}
+
+/* MOBILE max 600px XS*/
+@media (max-width: 600px) {
+	/*landing page*/
+	.landing-text {
+		padding: 20px;
+	}
+	.landing-page h1 {
+		font-size: 3em;
+	}
+
+	/*about*/
+	#about .container-centering-half div {
+		padding: 40px 20px;
+	}
+
+	/*our work*/
+	#gallery > div > div.container > div.working-process {
+		padding: 0;
+	}
+	div.col-xs-2.step {
+		height: 40px;
+		padding: 0;
+	}
+	.step-content p {
+		display: none;
+	}
+	.step-border {
+		height: 40px;
+		width: 40px;
+	}
+	.step-content .fa {
+		font-size: 1.6em;
+	}
+
+	/*gallery*/
+	#gallery-container > div > div.row.text-center > button {
+		margin-top: 40px;
+	}
+
+	/*newsletter*/
+	#newsletter > div > div > div > div:nth-child(2) > div:nth-child(1) {
+		padding-right: 0;
+	}
+	#contact > div > div > div > div.col-md-6.contact-form {
+		padding: 40px 0;
+	}
+
+	/*contact*/
+	#contact .contact-form {
+		padding: 20px;
+	}
+}
