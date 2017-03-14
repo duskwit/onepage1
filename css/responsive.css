@@ -187,3 +187,10 @@
 		padding: 20px;
 	}
 }
+
+/* MOBILE max 600px XS*/
+@media (max-width: 600px) {
+	#newsletter button {
+		padding: 6px 8px;
+	}
+}
